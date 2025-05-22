@@ -50,3 +50,18 @@ img{
     50% {background-position: 100% 50%;}
     100% {background-position: 0% 50%;}
 }
+
+.voltar{
+    color: red;
+    width: 15%;
+    height: 5%;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    cursor: pointer;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: red;
+    background-image: url(./backgrounds/Dark\ Souls\ -\ Fall\ Down\ Seven\ Times.jpg);
+    background-size: 100%;
+}
