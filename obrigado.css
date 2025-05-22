@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+
+img{
+    width: 35%;
+    height: 55%;
+    position: absolute;
+    top: 7%;
+    left: 30%;
+    border-radius: 50%;
+}
+
+.title{
+    position: absolute;
+    top: 63.5%;
+    left: 26.9%;
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-10%, -30%);
+}
+
+.assinatura{
+    position: absolute;
+    top: 74%;
+    left: 24%;
+    font-size: 1.9em;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-10%, -30%);
+}
+
+.ass{
+    font-size: 50px;
+    color: rgb(235, 151, 82);
+    background: linear-gradient(45deg, red, blue, green, yellow);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: color 5s linear infinite;
+    position: absolute;
+    top: 69.8%;
+    left: 29%;
+}
+@keyframes color {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
