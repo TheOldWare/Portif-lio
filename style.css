@@ -106,20 +106,10 @@ strong{
 
 .email{
     font-size: 50px;
-    color: rgb(235, 151, 82);
-    background: linear-gradient(45deg, red, blue, green, yellow);
-    background-size: 400%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: infinite 4.5s linear color;
+    color: rgb(41, 247, 0);
     position: absolute;
     top: 74%;
     left: 59%;
-}
-@keyframes infinite {
-    0% {background-position: 0% 50%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 50%;}
 }
 
 .formshere{
@@ -156,4 +146,36 @@ strong{
     top: 91%;
     left: 75%;
     transform: translate(-50%, -50%);
+}
+
+.rodapé{
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-50%, -50%);
+}
+
+.rodapé2{
+    position: absolute;
+    top: 86%;
+    left: 18%;
+    font-size: 1.7em;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Courier New', Courier, monospace;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(45deg , #ff0000, #00ff00, #0000ff);
+    background-size: 300% 300%;
+    animation: color 10s ease infinite;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+@keyframes color {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
